@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "FocusUI",
+	"Description": "Effortlessly create custom-shaped focus masks with native-like click-through interaction for your UE5 projects.",
+	"Category": "Other",
+	"CreatedBy": "scriptkitz",
+	"CreatedByURL": "https://github.com/scriptkitz/FocusUI",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "FocusUI",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
