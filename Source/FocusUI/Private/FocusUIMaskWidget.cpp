@@ -155,7 +155,7 @@ void UFocusUIMaskWidget::UpdateWidget(const FGeometry& MyGeometry)
         DynamicMaskMaterial->SetVectorParameterValue("EdgeColor", _EdgeColor);
 
         DynamicMaskMaterial->SetVectorParameterValue("Rect",
-            FVector4(
+            FLinearColor(
                 (CurrentLocalLTPos.X + HalfSize.X) / LocalFullSize.X,
                 (CurrentLocalLTPos.Y + HalfSize.Y) / LocalFullSize.Y,
                 HalfSize.X / LocalFullSize.X,
