@@ -38,6 +38,7 @@ public class FocusUI : ModuleRules
 			{
 				"CoreUObject",
 				"Engine",
+				"InputCore", // FKey/EKeys：FPointerEvent 构造/析构需要（SlateCore 对它的公开依赖在链接时未传递）
 				"Slate",
 				"SlateCore",
 				// ... add private dependencies that you statically link with here ...	
